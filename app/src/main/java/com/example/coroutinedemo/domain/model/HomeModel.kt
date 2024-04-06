@@ -1,4 +1,4 @@
-package com.example.coroutinedemo.model
+package com.example.coroutinedemo.domain.model
 
 import com.google.gson.annotations.SerializedName
 import java.io.Serializable
