@@ -9,17 +9,20 @@ Utilizes MVVM architecture pattern for improved maintainability and testability.
 Uses Coroutines for asynchronous programming, making network requests and database operations.
 Implements Hilt for dependency injection, providing a clean and simple way to manage dependencies.
 
-Architecture Components
+**Architecture Components**
 
-Presentation Layer
+**Presentation Layer**
+
 MainActivity: Handles UI interactions and displays the API response in a toast message.
 MainViewModel: Holds the presentation logic and interacts with the domain layer to fetch data.
 
-Domain Layer
+**Domain Layer**
+
 UseCase: Implements business logic for fetching data from the repository.
 Model: Defines entities or models representing the data used in the application.
 Repository: Provides an interface for data operations.
 
-Data Layer
+**Data Layer**
+
 DataSource: Implements data operations, such as fetching data from a remote API.
 RepositoryImpl: Implements the repository interface, interacting with the data source to fetch data.
