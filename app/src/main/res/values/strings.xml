@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">CoroutineDemo</string>
+    <string name="mvvm_with_clean_architecture">MVVM with clean architecture</string>
 </resources>
